@@ -43,7 +43,7 @@ tasks:
     generates:
       - k6
     cmds:
-      - xk6 build --with github.com/szkiba/xk6-faker=$(pwd)
+      - xk6 build --with github.com/fredricfoo/xk6-faker=$(pwd)
 
   test:
     deps: [build]
